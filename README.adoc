@@ -1,0 +1,18 @@
+= Atualização eficiente de dependências Python
+
+Este repositório contém uma apresentação de apoio usando https://asciidoctor.org/[Asciidoctor] /
+https://asciidoctor.org/docs/asciidoctor-revealjs[Asciidoctor-RevealJS] para o tutorial de mesmo nome realizado na https://sudeste.python.org.br/[Python Sudeste] no dia 6 de julho de 2024, na cidade de São Carlos, SP, Brasil.
+
+== Resumo
+Pratique atualização de dependências de projetos Python.
+
+Aprenda:
+
+- Como identificar os pacotes mais importantes
+- Atualizar sem causar problemas de compatibilidade
+- O processo passo a passo
+
+== Slides
+Os arquivos fontes estão em `docs`
+
+Os detalhes de licença encontram-se no arquivo `LICENSE` do diretório.

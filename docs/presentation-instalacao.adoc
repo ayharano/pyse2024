@@ -1,0 +1,20 @@
+== Instalação de dependências e `pip freeze`
+
+Exemplo: Flask em Python 3.12
+
+[source,shell]
+----
+$ # garantir versão Python como 3.12
+$ # caso Windows, adaptar de acordo
+$ python -m venv venv
+$ source venv/bin/activate
+$ pip install Flask
+$ pip freeze
+blinker==1.8.2
+click==8.1.7
+Flask==3.0.3
+itsdangerous==2.2.0
+Jinja2==3.1.4
+MarkupSafe==2.1.5
+Werkzeug==3.0.3
+----

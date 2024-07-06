@@ -1,0 +1,17 @@
+== Ferramenta para visualizar: `pipdeptree`
+
+[source,shell]
+----
+$ # instale anteriormente graphviz em seu sistema
+$ pip install pipdeptree graphviz
+$ pipdeptree --graph-output png > dependencias.png
+----
+
+image:grafo-dependencias.svg[Diagrama com árvores de dependências]
+
+=== Exercício `pipdeptree`
+
+* Escolher alguns projetos
+* Criar `venv` para cada
+* Instalar dependências
+* Visualizar os respectivos grafos de dependências

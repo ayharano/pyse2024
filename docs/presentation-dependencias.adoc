@@ -1,0 +1,33 @@
+== Dependências em projeto Python
+
+- `requirements.txt`
+- `setup.py`
+- `pyproject.toml`
+
+=== Biblioteca vs Aplicação
+
+TODO
+
+
+=== `pip freeze`
+
+[source,shell]
+----
+$ python -m venv venv
+$ source venv/bin/activate
+$ pip install flask
+$ pip freeze > requirements.txt
+----
+
+=== `requirements.txt` gerado
+
+[source,python]
+----
+blinker==1.8.2
+click==8.1.7
+Flask==3.0.3
+itsdangerous==2.2.0
+Jinja2==3.1.4
+MarkupSafe==2.1.5
+Werkzeug==3.0.3
+----

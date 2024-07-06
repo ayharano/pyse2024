@@ -1,0 +1,58 @@
+== Atualização de projeto Python
+
+* Vantagens
+** Evita ser alvo de vulnerabilidades conhecidas
+** Maior maleabilidade de mudanças
+* Requisitos
+** Tempo e cuidado
+** Necessário senso crítico de nuances
+** Processo investigativo iterativo
+*** Código fonte é um de seus maiores aliados
+
+=== Detalhes durante investigação
+
+* Prestar atenção em datas
+** Release: PyPI, repositório, etc
+** `git blame`
+
+=== Documente o processo!
+
+* Tenha uma versão base segura antes de fazer qualquer modificação
+* Em cada iteração escolha o que quer atualizar: pacotes ou Python
+* Habilite `warnings` e não os ignore
+* Execute testes
+* Avalie se a mudança foi bem-sucedida
+* Enxague e repita ;)
+
+=== Triagem de pacotes
+
+Boa prática: segmentar na aplicação e seções correlatas
+
+* Aplicação / Biblioteca
+* Testes
+* Utilitários de desenvolvimento
+* etc...
+
+=== `venv`
+
+Ambientes virtuais (virtual environment - `venv`) isolam pacotes
+
+Não ter receio de recriar sempre que necessário
+
+`...` porém, verificar potenciais diferenças antes de remover
+
+=== Rede de segurança: testes
+
+Antes de atualizar, verificar se existem testes automáticos
+
+Caso não existam, procure identificar os fluxos mais importantes
+
+=== Ferramentas para facilitar reprodutibilidade
+
+* https://python-poetry.org/[`poetry`]
+* https://pip-tools.rtfd.io[`pip-tools`]
+** https://github.com/astral-sh/uv[`uv`]
+
+=== Sequência para atualização
+
+image:ciclo.svg[Diagrama com sentido horário e anti-horário entre os elementos Upgrade de versão Pacotes ou Python - Triagem / Ajuste - Teste]

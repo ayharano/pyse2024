@@ -1,0 +1,34 @@
+== Python possui baterias incluídas
+
+image:baterias.png[Seção Baterias incluídas do tutorial oficial de Python em português,link=https://docs.python.org/pt-br/3/tutorial/stdlib.html#batteries-included]
+
+=== Exemplo sem dependências externas: bottle
+
+image:bottle.png[Documentação do micro-framework Python para Web chamado Bottle, que não possui dependências externas,link=https://bottlepy.org/]
+
+=== `import antigravity`
+
+image:antigravity.png[Tirinha de xkcd que é carregada ao usar `import antigravity`,link=https://xkcd.com/353/]
+
+=== Versões de Python
+
+image:python-versions.png[Diagrama representando as versões de Python 2.7 e 3.0 até 3.14 com uma linha vertical representando o período da captura da imagem como meio de 2024,link=https://devguide.python.org/versions/]
+
+=== Meios de instalação de versão de Python
+
+* https://www.python.org/[Site oficial de Python]
+* Gerenciador de pacotes de sua distro
+* https://github.com/pyenv/pyenv[`pyenv`] | https://pyenv-win.github.io/pyenv-win/[`pyenv-win`] | https://asdf-vm.com/[`asdf`]
+* https://hub.docker.com/_/python[Imagem oficial Docker Hub]
+
+=== Exercício de versões de Python
+
+Instalar versões 3.6 até 3.12 de Python usando https://github.com/pyenv/pyenv[`pyenv`] | https://pyenv-win.github.io/pyenv-win/[`pyenv-win`] | https://asdf-vm.com/[`asdf`]
+
+* Criar `venv` para cada versão
+* Ativar `venv`
+* Rodar `python --version`
+
+Documentação módulo `venv`: https://docs.python.org/3/library/venv.html
+
+Dependências para instalação de Python: https://github.com/pyenv/pyenv/wiki

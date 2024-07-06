@@ -1,0 +1,15 @@
+== Alexandre Harano
+:icons: font
+:icon-set: fab
+
+[cols=">h,<m",grid=none,frame=none]
+|===
+|https://github.com/ayharano/[icon:github[]] https://gitlab.com/ayharano/[icon:gitlab[]] https://t.me/ayharano/[icon:telegram[]] https://twitter.com/ayharano/[icon:twitter[]] https://www.linkedin.com/in/ayharano[icon:linkedin[]]
+|/ @ayharano
+
+|
+|
+
+|
+|email@ayharano.dev
+|===

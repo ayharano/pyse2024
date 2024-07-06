@@ -1,0 +1,7 @@
+== Sobre Alexandre
+
+* Graduação em Engenharia da Computação pela https://www.ufscar.br/[UFSCar]
+* Mestrado em Ciência da Computação pelo https://www.ime.usp.br/[IME-USP]
+* Pythonista desde 2007
+* Experiência profissional pelas indústrias de infraestrutura de internet, securitização e educação
+* Atualmente Senior Backend Developer em https://www.moray.ai/[Moray]

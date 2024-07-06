@@ -1,0 +1,8 @@
+.bundle
+.gem
+Gemfile.lock
+.ruby-version
+.asciidoctor
+node_modules
+package-lock.json
+mermaid.html

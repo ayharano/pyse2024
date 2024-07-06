@@ -1,0 +1,38 @@
+== Ferramenta para auxiliar: `pip-chill`
+
+image:pip-chill.png[Documentação da ferramenta `pip-chill` - lista somente pacotes que não são dependências de pacotes instalados,link=https://pip-chill.readthedocs.io/]
+
+=== `pip-chill`
+
+[source,shell]
+----
+$ pip install pip-chill
+$ pip-chill
+flask==3.0.3
+pip-chill==1.0.3
+----
+
+=== Considerações na triagem com `pip-chill`
+
+* Funciona bem para remover dependências intermediárias
+* Tomar muito cuidado para explicitamente incluir pacotes importantes
+** Exemplos:
+*** `pytest-cov` oculta `pytest`
+*** `SQLAlchemy-Utils` oculta `SQLAlchemy`
+*** `djangorestframework` oculta `Django`
+
+=== Exercício `pip-chill`
+
+Atualização de pacotes / versão Python usando `pip-chill`
+
+https://github.com/microsoft/hydrate
+
+Perguntas:
+
+* Qual versão de Python a solução foi desenhada?
+* Como rodar os testes?
+
+Ações:
+
+* Iterar processo `pip-chill`, triagem, teste e atualização
+* Anotar tentativas e sucessos

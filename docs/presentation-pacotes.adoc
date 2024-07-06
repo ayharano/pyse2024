@@ -1,0 +1,49 @@
+== {blank}
+
+[quote,Isaac Newton,Letter from Sir Isaac Newton to Robert Hooke (1675)]
+Se eu vi mais longe, foi por estar https://pt.wikipedia.org/wiki/Sobre_os_ombros_de_gigantes[sobre ombros de gigantes].
+
+=== Reuso de código: pacotes
+
+image:pacote.svg[Imagem ilustrativa de um pacote literal]
+
+=== Guia de empacotamento Python
+
+image:packaging.png[Página inicial do guia de usuário de empacotamento Python,link=https://packaging.python.org/en/latest/]
+
+=== Versionamento
+
+- https://semver.org/lang/pt-BR/[SemVer]
+- https://calver.org/overview_pt_br.html[CalVer]
+
+- CHANGELOG
+
+=== Exemplos de numeração de versões
+
+image:versioning.png[Página sobre versionamento utilizado no contexto de pacotes Python,link=https://packaging.python.org/en/latest/discussions/versioning/]
+
+=== Versionamento Semântico (SemVer)
+
+image:semver.png[Página sobre versionamento semântico - conhecido como SemVer - destacando a estrutura MAJOR.MINOR.PATCH,link=https://semver.org/lang/pt-BR/]
+
+=== Controle de Versão do Calendário (CalVer)
+
+image:calver.png[Página sobre controle de versão de calendário - conhecido como CalVer - mencionando amplamente o uso de calendário sem exemplo real,link=https://calver.org/overview_pt_br.html]
+
+=== Registro de mudanças (CHANGELOG)
+
+- Registro de resumo de mudanças
+- Facilita a procurar versões (in)compatíveis
+- Pode ser listagem de commits
+
+=== Exemplo de CHANGELOG: pytest
+
+image:pytest-changelog.png[Página com resumo das mudanças de `pytest`,link=https://docs.pytest.org/en/stable/changelog.html]
+
+=== PyPI
+
+image:pypi.png[Página inicial do Python Package Index - também conhecido como Cheese Shop de Monty Python,link=https://pypi.org/]
+
+===  Top 10 pacotes mais baixados até 1/Julho/2024
+
+image:top10.png[Lista com os top 10 pacotes mais baixados até julho de 2024: 1. boto3 2. urllib3 3. botocore 4. requests 5. certifi 6. typing-extensions 7. idna 8. charset-normalizer 9. python-dateutil 10. setuptools,link=https://hugovk.github.io/top-pypi-packages/]

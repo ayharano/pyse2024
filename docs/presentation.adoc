@@ -1,0 +1,41 @@
+= Atualização eficiente de dependências Python
+:author: Alexandre Harano @ayharano <email@ayharano.dev>
+:date: 2024-07-06
+:revealjs_theme: solarized
+:revealjs_autoSlide: 5000
+:revealjs_history: true
+:revealjs_fragmentInURL: true
+:revealjs_viewDistance: 5
+:revealjs_width: 1408
+:revealjs_height: 792
+:revealjs_controls: true
+:revealjs_controlsLayout: edges
+:revealjs_controlsTutorial: true
+:revealjs_slideNumber: c/t
+:revealjs_showSlideNumber: speaker
+:revealjs_autoPlayMedia: true
+:revealjs_defaultTiming: 42
+:imagesdir: images
+:source-highlighter: pygments
+:highlightjs-languages: json, shell, python
+:stem:
+
+https://ayharano.github.io/pyse2024
+
+include::presentation-sobre-mim.adoc[]
+
+include::presentation-just-python.adoc[]
+
+include::presentation-pacotes.adoc[]
+
+include::presentation-instalacao.adoc[]
+
+include::presentation-pipdeptree.adoc[]
+
+include::presentation-atualizacao.adoc[]
+
+include::presentation-pip-chill.adoc[]
+
+include::presentation-recapitulacao.adoc[]
+
+include::presentation-eu.adoc[]

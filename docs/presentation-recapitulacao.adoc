@@ -1,0 +1,3 @@
+== Recapitulação
+
+image:ciclo.svg[Diagrama com sentido horário e anti-horário entre os elementos Upgrade de versão Pacotes ou Python - Triagem / Ajuste - Teste]
